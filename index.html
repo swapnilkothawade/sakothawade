@@ -1,228 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="Swapnil Kothawade" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
     <title>Swapnil Kothawade</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+  </head>
 
-</head>
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-laptop"></i>  <span class="light">Swapnil </span> Kothawade
-                </a>
-            </div>
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about"><i class="fa fa-circle-o-notch"></i> Bio & Skills </a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download"><i class="fa fa-university"></i> Projects </a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact"><i class="fa fa-tty"></i> Contact Me </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Swapnil A. Kothawade</h1>
+					<h3>MSc Mangement of Information Technology | swapnil7080@gmail.com</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading" style="color:#FFF">Swapnil Kothawade</h1>
-                        <p class="intro-text">MSc. Management of Information Technology</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p align="justify">In the years since studying Computer Engineering at the University of Pune at the Bachelor's level and at the University of Nottingham at the Master's level, I have gained a wide range of experience, from assembly programming and compiler development all the way over to web-based application design and browser extension creation.<br>I love opportunities to take advantage of my experience with coding at the lowest levels of computer technology and developing front-end interfaces. My thirst for knowledge and new skills will, no doubt, enable me to make quite a difference wherever my career takes me!.</p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="assets/CV.pdf"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2> <i class="fa fa-circle-o-notch"></i> Bio & Skills</h2>
-                <div class="col-lg-3">
-                <img src="img/as.png" class="img-circle">
-                </div>
-                <div class="col-lg-9" align="justify">
-                
-                <p align="justify">In the years since studying Computer Engineering at the University of Pune at the Bachelor's level and at the University of Nottingham at the Master's level, I have gained a wide range of experience, from assembly programming and compiler development all the way over to web-based application design and browser extension creation.
-                </p>
-                </div>
-                <div class="col-lg-8" style="padding-right:20px; border-right: 1px solid #219ab3;">
-                
-<p align="justify">I am passionate about developing software and web applications for high-level functionality and low-level performance with a strong focus on usability. My professional and personal endeavours are often marked by a great attention to detail that complements cohesive integration of larger scale projects.</p>
 
-<p align="justify">I studied Computer Engineering at both the Bachelor's and Master's levels.</p>
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
-<p align="justify">I love opportunities to take advantage of my experience with coding at the lowest levels of computer technology and developing front-end interfaces. My thirst for knowledge and new skills will, no doubt, enable me to make quite a difference wherever my career takes me!</p>
-</div>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Master of Management of Information Technology</t><br/>
+						The University of Nottingham<br/>
+						<i>1 Year Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>DECEMBER 2014</sm><br/>
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>B.Tech Computer Engineering</t><br/>
+						Vishwakarma Institute of Technology <br/>
+						<i>4 Years Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>DECEMBER 2012</sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+<!--	<div class="container desc">
+		<div class="row">
 
-<div class="col-lg-4">
-<h4 style="color: #219ab3"> Development </h4>
-<p style="font-size:15px">C and C++, JAVA, Python, Assembly, MySQL.</p>
-<h4 style="color: #219ab3"> Operating Systems </h4>
-<p style="font-size:15px">Windows XP, Windows Vista, Windows 7, Windows 8, Mac OS, Linux.</p>
-<h4 style="color: #219ab3"> Web </h4>
-<p style="font-size:15px">HTML, PHP, CSS, Dream weaver. <br> CMS: Django, Wordpress</p>
-<h4 style="color: #219ab3"> Simulation </h4>
-<p style="font-size:15px">JAVA, AnyLogic</p>
-<h4 style="color: #219ab3"> Collaborative Control </h4>
-<p style="font-size:15px">GIT, GitHub</p>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Front-end Developer</t><br/>
+						Black Tie Corp. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>AUGUST 2012 - CURRENT</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Web Designer - Intern</t><br/>
+						Onassis Ltd. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2010 - JULY 2012</sm></p>
+				</div>
+		</div><!--/.row -->
+<!--	<br>
+		<hr>
+	</div><!--/.container -->
 
-                    <a href="docs/CV.pdf" download class="btn btn-default btn-lg">Download CV</a>
-                    </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2><i class="fa fa-university"></i> Projects</h2>
-<div class="row">
-  <div class="col-sm-8 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" src="img/Untitled.jpg">
-      <div class="caption">
-        <h3>Thesis</h3>
-        <p style="font-size: inherit" align="justify">Ebudget - Understand Energy Budgeting and design an application prototype for better budgeting: The dissertation investigated the importance of energy in household budgeting and the effectiveness of feedback on energy consumption through deployment of HEMS in homes and semi-structured interviews and survey questionnaire. The prototype was designed using HTML, CSS, JavaScript and django was used as a web framework.</p>
-        <a href="http://swapnilkothawade.github.io/eBudget"> <i class="fa fa-desktop"></i> eBudget Prototype</a>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-8 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" src="img/uml.gif">
-      <div class="caption">
-        <h3>Project</h3>
-        <p style="font-size: inherit" align="justify">IME for Complex Systems: Prototype, named ‘IADCT Tool’ was developed using JAVA, Visual Basic 6.0 and .NET, which would eliminate the major issues in the existing Unified Modeling tools.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-8 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" src="img/Sim.jpg">
-      <div class="caption">
-        <h3>Simulation Programming</h3>
-        <p style="font-size: inherit" align="justify">Computer model using Anylogic was implemented using the real world statistics and considering problems faced by “Immigration and Passport check” services at the Heathrow airport for Terminal 4.</p>
-      </div>
-    </div>
-  </div>
-  
-</div>
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>AWARDS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Postgraduate Venture Challenge</t><br/>
+					Won the Nottingham City Council's Trade with India prize <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>AUGUST 2014</sm></p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+	
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>Javascript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>Bootstrap</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<p>Wordpress</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="c++" height="130" width="130"></canvas>
+						<p>C/C++</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("c++").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="python" height="130" width="130"></canvas>
+						<p>Python</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 50,
+										color:"#1abc9c"
+									},
+									{
+										value : 50,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+                    
+                    
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="database" height="130" width="130"></canvas>
+						<p>Databases/MySQL</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("database").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="OS" height="130" width="130"></canvas>
+						<p>Operating Systems</p>
+                        Windows XP, Windows Vista, Windows 7, Windows 8, Mac OS, Linux.
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("OS").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="simulation" height="130" width="130"></canvas>
+						<p>Simulation</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 50,
+										color:"#1abc9c"
+									},
+									{
+										value : 50,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("simulation").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 
-</div>
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
 
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2> <i class="fa fa-tty"></i> Contact Me</h2>
-                <p>I am always interested in new or exciting opportunities in software, computer hardware and web development. Please feel free to contact me by email or through the networks below, and I will respond as soon as possible.</p>
-                <p><a href="mailto:swapnil7080@gmail.com.com">swapnil7080@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/swapnil7080" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/swapnilkothawade" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/pub/swapnil-kothawade/3a/182/b12" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/u/0/" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
-    <!-- Map Section -->
-<!--    <div id="map"></div>
--->
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p">Copyright &copy; Swapnil Kothawade 2014</p>
-        </div>
-    </footer>
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PROJECTS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+					<p>EBUDGET</p>
+				<p><more>Understand Energy Budgeting and design an application prototype for better budgeting: The dissertation investigated the importance of energy in household budgeting and the effectiveness of feedback on energy consumption through deployment of HEMS in homes and semi-structured interviews and survey questionnaire. The prototype was designed using HTML, CSS, JavaScript and django was used as a web framework.<br/>
+                                        <a href="http://swapnilkothawade.github.io/eBudget"> <i class="icon-desktop"></i> eBudget Prototype</a>
+                <br/>
+					<sm><i class="icon-tag"></i> design</sm></more> 
+				</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>IME FOR COMPLEX SYSTEMS</p>
+					<p><more>Prototype, named ‘IADCT Tool’ was developed using JAVA, Visual Basic 6.0 and .NET, which would eliminate the major issues in the existing Unified Modeling tools.<br/><br/>
+						<sm><i class="icon-tag"></i> front-end</sm></more> 
+					</p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/Sim.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>SIMULATION PROGRAMMING</p>
+					<p><more>Computer model using Anylogic was implemented using the real world statistics and considering problems faced by “Immigration and Passport check” services at the Heathrow airport for Terminal 4.<br/>
+                    <p><a href="assets/sim.pdf"><i class="icon-file"></i> <sm>DOCUMENTATION</sm> </a></p>
+						<sm><i class="icon-tag"></i> web design</sm></more> 
+					</p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+	
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						swapnil7080@gmail.com <br/>
+					</p>
+					<p><t>Address</t><br/>
+						42 Marchwood Close <br/>
+						NG8 1PH <br/>
+						Nottingham, England. <br/>
+					</p>
+					<p><t>Phone</t><br/>
+						+44 7448053879 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href=""https://plus.google.com/u/0/""><i class="icon-google-plus"></i></a>
+						<a href="https://www.facebook.com/swapnil7080"><i class="icon-facebook"></i></a>
+						<a href="https://github.com/swapnilkothawade"><i class="icon-github"></i></a>
+                        					<a href="https://www.linkedin.com/pub/swapnil-kothawade/3a/182/b12"><i class="icon-linkedin"></i></a>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p align="center">Copyright &copy; Swapnil Kothawade 2014</p>
+		
+		</div>
+	</div>
+	
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-<!--    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJkgolwQCvwtfJwh4ifjBUm4LCGv046iE&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
-</body>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
 </html>
